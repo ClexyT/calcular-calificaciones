@@ -11,7 +11,7 @@ function NotFound () {
         <p className='text-slate-600'>You are lost 404</p>
         <Image src='https://midu.dev/images/this-is-fine-404.gif' alt='Gif del perro this is fine quemandose vivo' width={600} height={600} />
         <p className='text-slate-600 mb-2 font-bold'><span className='text-blue-900'>↓</span> Aquí tienes el boton para volver a la Página Principal <span className='text-blue-900'>↓</span> </p>
-        <Link href='/initial' className='text-slate-600 font-bold border-2 border-slate-800 rounded-[20px] hover:border-blue-500 hover:text-blue-900 p-1 px-3'>Volver al Inicio</Link>
+        <Link href='/' className='text-slate-600 font-bold border-2 border-slate-800 rounded-[20px] hover:border-blue-500 hover:text-blue-900 p-1 px-3'>Volver al Inicio</Link>
       </div>
     </section>
   )
